@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto/Roboto-Medium.ttf') format("truetype");
+    font-family: 'Montserrat';
+    src: url('.assets\fonts\Montserrat-VariableFont_wght.ttf') format("truetype");
+}
+
+/* General styles */
+body {
+    font-family: "Montserrat";
+    font-size: 1em;
+}
+
+
+
+
+/* Header styles */
+
+.header-container {
+    display: flex;
+    align-items: center;
+    padding: 2.2em 3.94em;
+    justify-content: space-between;
+    position:fixed;
+    background-color: white;
+    top:0px;
+    right:0px;
+    left:0px;
+}
+
+.logo {
+
+}
+
+.menu-list {
+   display: flex;
+   align-items: center;
+}
+
+.menu-item {
+    margin-left: 3.1em;
+}
+
+
+.blue-button {
+    text-transform: uppercase;
+    background-color: #7AE5FD;
+    padding: 1.15em 1.94em;
+    border-radius: 4.8em;
+    margin-left: 1.3em;
+}
+
+
+/* First screen */
+
+.white-button{
+    background-color:white;
+}
+
+.first-screen {
+    background-image: url('./assets/images/9d87e92590ae5ecb611ebe146e21a634.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15vh;
+
+}
+
+.first-screen-container {
+    width: 50%;
+    margin-left: 7vh;
+}
+
+
+.main-title {
+    font-weight: 800;
+    font-size: 4.06em;
+    line-height: 1;
+    color:white;
+}
+
+.main-description {
+
+}
+/*that one naming "Ми – фонд підтримки постраждалих від війни" part:*/
+.naming{
+
+}
+.naming-block{
+    text-align: center;
+    text-wrap: wrap;
+ 
+
+}
+
+.naming-block-header{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 3em;
+    padding:7em;
+    padding-top: 4em;
+    padding-bottom: 0.4em;
+
+}
+
+.naming-block-subheader{
+    padding-bottom: 0.3em;
+
+}
+
+.naming-block-info{
+    font-size: 0.75em;
+    color:#73A6B1;
+    margin-bottom: 7em;
+}
+
+/* three block section**/
+.block-img {
+    max-width: 40vw;
+    border-radius: 2em;
+}
+
+.description-screen{
+    padding: 5vw;
+
+}
+
+.description-block {
+    display: flex;
+    background-color: #f1fdff;
+    padding: 2vh 3vw;
+    border-radius: 1em;
+    margin-bottom:2em;
+}
+
+.desc-header{
+    text-transform: uppercase;
+    font-weight: 70;
+    font-size: 2em;
+    padding-top: 2.5em;
+    margin-bottom:0.5em;
+}
+
+
+
+.findout-more{
+    margin-left: 45%;
+}
